@@ -3,7 +3,7 @@
 - Latest build status with azerothcore:
 
 [![Build Status](
-https://github.com/sogladev/mod-increment-cache-version/actions/workflows/core-build.yml/badge.svg?branch=master&event=push)](https://github.com/sogladev/mod-increment-cache-version)
+https://github.com/sogladev/mod-increment-cache-version/actions/workflows/core-build.yml/badge.svg?branch=master)](https://github.com/sogladev/mod-increment-cache-version)
 
 This module for [AzerothCore](http://www.azerothcore.org) automatically increments the cache version on server startup, ensuring clients always have up-to-date cache data.
 
@@ -24,7 +24,7 @@ To use this module, ensure that the `ClientCacheVersion` setting in `worldserver
 https://www.azerothcore.org/wiki/installing-a-module
 
 1. Requires source recompilation
-2. Modify config to easily disable in the future.
+2. Modify the config to easily disable in the future.
   Found in `/etc/modules`, copy `.conf.dist` to `.conf`
 
 ## How to disable
